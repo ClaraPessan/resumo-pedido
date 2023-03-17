@@ -1,0 +1,28 @@
+body {
+    background-color: #E0E8FF;
+    background-image: url("../images/imagem-fundo-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
+.fonte-padrao {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #343442;
+    margin: 6px;
+}
+
+#texto-principal {
+    font-weight: 500;
+    font-size: 13px;
+    color: #727596;
+    line-height: 1.3rem
+}
+
+@media (max-width: 768px) {
+    body {
+      background-image: url("../images/imagem-fundo-mobile.svg");;
+    }
+}

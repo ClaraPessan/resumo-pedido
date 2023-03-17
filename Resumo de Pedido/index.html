@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/componentes/botoes/botao.css">
+    <link rel="stylesheet" href="css/componentes/grid/grid-musica.css">
+    <link rel="stylesheet" href="css/componentes/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="css/componentes/cartao/cartao.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>       
+      <main>
+        <section class="cartao">
+          <picture>
+            <img src="./images/ilustracao.svg" alt="Ilustração Ouvindo Música" class="ilustracao">
+          </picture>
+
+          <div class="cabecalho">
+            <h1 class="fonte-padrao">Order Summary</h1>
+            <p id="texto-principal" class="fonte-padrao">You can now listen to millions of songs, audiobooks, and podcasts on any 
+              device anywhere you like!
+            </p>
+          </div>
+
+          <div class="grid-container">
+            <div class="grid-item grid-item-musica">
+              <img src="./images/icone-musica.svg" alt="icone de música" class="icone-musica">
+            </div>
+            <div class="grid-item grid-item-titulo">              
+              <h4 id="titulo-plano" class="fonte-padrao">Annual Plan</h4>
+            </div>
+            <div class="grid-item grid-item-preco">
+              <p id="preco" class="fonte-padrao">$59.99/year</p>
+            </div>
+            <div class="grid-item grid-item-mudar">
+              <a id="mudar" class="fonte-padrao">Change</a>
+            </div>
+          </div>
+          
+          <div>
+            <button id="botao-concluir">Proceed to Payment</button>
+            <button id="botao-cancelar" class="botao">Cancel Order</button>
+          </div>
+        </section>
+      </main>
+  </body>
+</html>

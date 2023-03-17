@@ -1,0 +1,12 @@
+.cartao {
+    background-color: #FFF;
+    width: 350px;
+    height: 545px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

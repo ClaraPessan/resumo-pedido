@@ -1,0 +1,11 @@
+.ilustracao {
+    width: 100%;
+    border-radius: 16px 16px 0 0 ;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 28px 44px 10px 44px;
+} 

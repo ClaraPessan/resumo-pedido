@@ -1,0 +1,31 @@
+button {
+    border: none;
+    border-radius: 8px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    padding: 12px 16px;
+    width: 100%;
+    cursor: pointer; 
+    margin: 4px;
+}
+
+#botao-concluir {
+    background-color: #382AE1;
+    color: #FFF;
+    font-weight: 700;
+    box-shadow: 0 12px 12px rgba(2, 2, 2, 0.2);
+}
+
+#botao-cancelar {
+    background-color: transparent;
+    color: #797492;
+    font-weight: 900;
+}
+
+#botao-concluir:hover {
+    background-color: #766CF1;
+}
+
+#botao-cancelar:hover {
+    color: rgb(50, 47, 59);
+}
